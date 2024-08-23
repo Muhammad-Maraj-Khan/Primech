@@ -1,40 +1,14 @@
-import styles from "../style";
-import { arrowUp } from "../assets";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Getstarted = () => (
-  <div
-    className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient
-  p-[2px] cursor-pointer`}
-  >
-    <div
-      className={`${styles.flexCenter} flex-col bg-primary
-    w-[100%] h-[100%] rounded-full`}
-    >
-      <div
-        className={`${styles.flexStart}
-      flex-row`}
-      >
-        <p
-          className="font-poopins font-medium
-        text-[18px] leading-[23px] mr-2"
-        >
-          <span className="text-gradient">Get</span>
-        </p>
-        <img
-          src={arrowUp}
-          className="w-[23px] h-[23px] 
-          object-contain"
-          alt="arrow"
-        />
-      </div>
-      <p
-        className="font-poopins font-medium
-        text-[18px] leading-[23px]"
-      >
-        <span className="text-gradient">Started</span>
-      </p>
+const Getstarted = () => {
+  return (
+    <div>
+    <Link to="/services_page">  
+       <button className="bg-transparent hover:bg-white text-white hover:text-secondary py-2 px-12 border border-white hover:border-transparent rounded-full font-thin sm:text-[1.2rem] text-[1rem] my-3">Get started</button>
+    </Link>  
     </div>
-  </div>
-);
+  )
+}
 
-export default Getstarted;
+export default Getstarted

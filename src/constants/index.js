@@ -6,20 +6,24 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "services",
+    title: "Services",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "pricing",
+    title: "Pricing",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "portfolio",
+    title: "Portfolio",
+  },
+  {
+    id: "contact",
+    title: "Contact Us",
   },
   {
     id: "about",
-    title: "More About Us",
+    title: "Why Primech?",
   }
 ];
 
@@ -60,7 +64,7 @@ export const feedback = [
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Adeel Khan",
+    name: "Noman Khan",
     title: "Founder & Leader",
     img: people02,
   },
@@ -77,43 +81,51 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Jobs Completed",
+    value: "3.2K",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Industry Experience",
+    value: "20+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Global Clients",
+    value: "1.2k",
+  },
+  {
+    id: "stats-4",
+    title: "Awards Winned",
+    value: "100+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links",
     links: [
       {
-        name: "Content",
+        name: "Home",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Services",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Pricing",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Portfolio",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Contact Us",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },{
+        name: "Why Primech?",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
@@ -199,3 +211,4 @@ export const clients = [
     logo: dropbox,
   },
 ];
+

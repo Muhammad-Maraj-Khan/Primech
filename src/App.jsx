@@ -1,33 +1,28 @@
-import React from "react";
-import styles from "./style";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import PreLoader from "./components/Preloader";
 
-import { Navbar,Billing,CardDeal,Business,Clients,CTA,Stats,Footer,Testimonials,Hero} from "./components";
+import { ContactUs, Home, Portfolio, Pricing, Services_Page, WhyPrimech} from "./pages";
+import { Footer } from "./components";
 
-const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+const App = () => {
+  return (
+    <main className='bg-black'>
+    <PreLoader/>
+      <Router>
         <Navbar/>
-        </div>
-    </div>
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero/>
-        </div>
-    </div>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/services_page' element={<Services_Page/>} />
+          <Route path='/portfolio' element={<Portfolio/>} />
+          <Route path='/pricing' element={<Pricing/>} />
+          <Route path='/contactus' element={<ContactUs/>} />
+          <Route path='/about' element={<WhyPrimech/>} />
+        </Routes>
         <Footer/>
-      </div>
-    </div>
-  </div>
-);
+      </Router>
+    </main>
+  );
+};
 
 export default App;
