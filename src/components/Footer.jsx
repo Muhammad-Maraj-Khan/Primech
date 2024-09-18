@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="flex sm:flex-row flex-col sm:mb-[0rem] mb-[1rem] flex-wrap justify-between items-center w-[100%] h-[14rem] sm:h-[10rem]  text-white">
       <img src={logo_white} className="h-[8rem] md:h-[10rem]"/>
       <h1 className="md:text-3xl text-2xl">contact@primechagency.com</h1>
-      <h1 className="md:text-3xl text-2xl">(510) 380-8686</h1>
+      <h1 className="md:text-3xl text-2xl">+1(213) 375-8381</h1>
     </div>
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#ffffff]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
