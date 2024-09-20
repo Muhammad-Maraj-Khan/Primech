@@ -54,27 +54,24 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Tehmeena Riaz",
-    title: "Founder & Leader",
-    img: people01,
+    content: "Primech Agency took our online presence to a whole new level! Their web design is sleek and modern, and their SEO expertise boosted our website traffic significantly. We're incredibly happy with the results.",
+    name: "Jessica Miller",
+    title: "CEO, Tech Solutions Inc.",
+    img: people01, 
   },
   {
     id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Noman Khan",
-    title: "Founder & Leader",
-    img: people02,
+    content: "Working with Primech Agency was a game-changer for our brand. Their team listened carefully to our needs and created a stunning visual identity that perfectly captures our essence. Their graphic design skills are top-notch!",
+    name: "David Wilson",
+    title: "COO, Creative Edge",
+    img: people02, 
   },
   {
     id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Siraj",
-    title: "Founder & Leader",
-    img: people03,
+    content: "We were struggling to rank higher in search results, but Primech Agency came to the rescue. Their SEO strategies delivered impressive results, and we've seen a significant increase in organic traffic and leads. Highly recommend their services!",
+    name: "Will Thompson",
+    title: "Owner, Bloom Boutique",
+    img: people03, 
   },
 ];
 
