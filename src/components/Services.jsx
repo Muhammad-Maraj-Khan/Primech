@@ -30,7 +30,6 @@ const Services = () => {
                 "Online .JPEG & .PNG Files",
                 "Print Ready .PDF File",
                 "No Vector .EPS File",
-                "No Editable Vector .AI File"
             ],
             orderButton: {
                 text: "Order Now",
@@ -99,7 +98,6 @@ const Services = () => {
                 "Online .JPEG & .PNG Files",
                 "Print Ready .PDF File",
                 "No Vector .EPS File",
-                "No Editable Vector .AI File"
             ],
             orderButton: {
                 text: "Order Now",

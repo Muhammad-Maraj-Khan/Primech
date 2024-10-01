@@ -6,7 +6,7 @@ const Footer = () => (
   <section id="about" className={`${styles.flexCenter} pb-5 flex-col main__gradient sm:px-7 px-4 sm:h-[20rem] h-[25rem] mt-4`} >
     <div className="flex sm:flex-row flex-col sm:mb-[0rem] mb-[1rem] flex-wrap justify-between items-center w-[100%] h-[14rem] sm:h-[10rem]  text-white">
       <img src={logo_white} className="h-[8rem] md:h-[10rem]" />
-      <a href="tel:+12133758381" className="hover:underline md:text-3xl text-2xl">+1(213) 375-8381</a>
+      <a href="tel:+12133758381" className="hover:underline md:text-3xl text-2xl">+1(708) 462-2508</a>
       <a href="mailto:contact@primechagency.com" className="hover:underline md:text-3xl text-2xl">contact@primechagency.com</a>
     </div>
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#ffffff]">
